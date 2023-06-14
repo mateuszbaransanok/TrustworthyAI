@@ -1,0 +1,30 @@
+[
+  {
+    "eval/sst2/accuracy": 0.96935,
+    "eval/sst2/fpr@95": 0.02245,
+    "eval/sst2/detection_error": 0.036199999999999975,
+    "eval/sst2/auroc": 0.98756260625,
+    "eval/sst2/aupr_in": 0.9912336974234245,
+    "eval/sst2/aupr_out": 0.9793566496130333,
+    "eval/sst2/ind_support": 20000.0,
+    "eval/sst2/ood_support": 20000.0,
+    "eval/sst2/ccr_1": 0.9484,
+    "eval/sst2/ccr_2": 0.92145,
+    "eval/sst2/ccr_3": 0.8805,
+    "eval/sst2/ccr_4": 0.8316
+  },
+  {
+    "eval/imdb/accuracy": 0.96935,
+    "eval/imdb/fpr@95": 0.72445,
+    "eval/imdb/detection_error": 0.38722500000000004,
+    "eval/imdb/auroc": 0.855468555,
+    "eval/imdb/aupr_in": 0.8888636022865534,
+    "eval/imdb/aupr_out": 0.7908522714346654,
+    "eval/imdb/ind_support": 20000.0,
+    "eval/imdb/ood_support": 20000.0,
+    "eval/imdb/ccr_1": 0.6771,
+    "eval/imdb/ccr_2": 0.49625,
+    "eval/imdb/ccr_3": 0.3544,
+    "eval/imdb/ccr_4": 0.25595
+  }
+]

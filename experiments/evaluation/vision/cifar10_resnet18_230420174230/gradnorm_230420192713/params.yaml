@@ -1,0 +1,18 @@
+seed: 2022
+task_name: vision
+training_name: cifar10_resnet18_230420174230
+evaluation_name: gradnorm_230420192713
+datasets:
+- cifar100/cifar10_ood
+- tin
+- mnist
+- svhn
+- texture
+- places365
+- gaussian
+- uniform
+method_name: gradnorm
+method_config: {}
+trainer:
+  gpu:
+  - 0

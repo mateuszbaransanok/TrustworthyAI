@@ -1,0 +1,30 @@
+[
+  {
+    "eval/20_news_groups/computer/accuracy": 0.9737732656514383,
+    "eval/20_news_groups/computer/fpr@95": 0.18904109589041096,
+    "eval/20_news_groups/computer/detection_error": 0.11198176695380745,
+    "eval/20_news_groups/computer/auroc": 0.9685847066731568,
+    "eval/20_news_groups/computer/aupr_in": 0.9698238161073283,
+    "eval/20_news_groups/computer/aupr_out": 0.9655338839871347,
+    "eval/20_news_groups/computer/ind_support": 1182.0,
+    "eval/20_news_groups/computer/ood_support": 1460.0,
+    "eval/20_news_groups/computer/ccr_1": 0.9247038917089678,
+    "eval/20_news_groups/computer/ccr_2": 0.751269035532995,
+    "eval/20_news_groups/computer/ccr_3": 0.40947546531302875,
+    "eval/20_news_groups/computer/ccr_4": 0.350253807106599
+  },
+  {
+    "eval/20_news_groups/politics/accuracy": 0.9737732656514383,
+    "eval/20_news_groups/politics/fpr@95": 0.2226762002042901,
+    "eval/20_news_groups/politics/detection_error": 0.14437777891502346,
+    "eval/20_news_groups/politics/auroc": 0.9617146195313081,
+    "eval/20_news_groups/politics/aupr_in": 0.9694812963882727,
+    "eval/20_news_groups/politics/aupr_out": 0.9444558821633334,
+    "eval/20_news_groups/politics/ind_support": 1182.0,
+    "eval/20_news_groups/politics/ood_support": 979.0,
+    "eval/20_news_groups/politics/ccr_1": 0.9145516074450084,
+    "eval/20_news_groups/politics/ccr_2": 0.5761421319796954,
+    "eval/20_news_groups/politics/ccr_3": 0.1658206429780034,
+    "eval/20_news_groups/politics/ccr_4": 0.1658206429780034
+  }
+]

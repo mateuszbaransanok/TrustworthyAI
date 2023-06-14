@@ -1,0 +1,20 @@
+seed: 2023
+task_name: transformer
+training_name: news-category_roberta-base_230415160556
+data_name: news-category
+data_config:
+  tokenizer_name: roberta-base
+  dataset_name: news_category/ind
+  batch_size: 64
+  num_workers: 6
+model_name: roberta-base
+model_config:
+  model_name: roberta-base
+  optimizer_name: adam
+  learning_rate: 2.0e-05
+  weight_decay: 0.01
+  num_warmup_steps: 1000
+trainer:
+  max_epochs: 100
+  gpu:
+  - 0

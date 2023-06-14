@@ -1,0 +1,30 @@
+[
+  {
+    "eval/20_news_groups/computer/accuracy": 0.9458631256384066,
+    "eval/20_news_groups/computer/fpr@95": 0.1958904109589041,
+    "eval/20_news_groups/computer/detection_error": 0.1073672172489282,
+    "eval/20_news_groups/computer/auroc": 0.960006716386584,
+    "eval/20_news_groups/computer/aupr_in": 0.9460796371791877,
+    "eval/20_news_groups/computer/aupr_out": 0.9715429110380067,
+    "eval/20_news_groups/computer/ind_support": 979.0,
+    "eval/20_news_groups/computer/ood_support": 1460.0,
+    "eval/20_news_groups/computer/ccr_1": 0.8825331971399387,
+    "eval/20_news_groups/computer/ccr_2": 0.5965270684371808,
+    "eval/20_news_groups/computer/ccr_3": 0.3871297242083759,
+    "eval/20_news_groups/computer/ccr_4": 0.17160367722165476
+  },
+  {
+    "eval/20_news_groups/sports/accuracy": 0.9458631256384066,
+    "eval/20_news_groups/sports/fpr@95": 0.36548223350253806,
+    "eval/20_news_groups/sports/detection_error": 0.1918337646619765,
+    "eval/20_news_groups/sports/auroc": 0.9321478631636619,
+    "eval/20_news_groups/sports/aupr_in": 0.9272457875779646,
+    "eval/20_news_groups/sports/aupr_out": 0.9379988325330597,
+    "eval/20_news_groups/sports/ind_support": 979.0,
+    "eval/20_news_groups/sports/ood_support": 1182.0,
+    "eval/20_news_groups/sports/ccr_1": 0.7957099080694586,
+    "eval/20_news_groups/sports/ccr_2": 0.47497446373850866,
+    "eval/20_news_groups/sports/ccr_3": 0.36057201225740554,
+    "eval/20_news_groups/sports/ccr_4": 0.33094994892747703
+  }
+]

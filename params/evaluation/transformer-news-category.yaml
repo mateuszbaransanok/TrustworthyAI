@@ -1,0 +1,36 @@
+seed: 2022
+task_name: transformer
+training_name: ???
+
+datasets:
+  - news_category/ood
+  - twitter_topic
+  - sst2
+  - imdb
+  - yelp_polarity/small
+  - language
+  - news_category_random/ind
+  - news_category_random/ood
+
+method_name: ???
+method_config: { }
+
+trainer:
+  gpu: [ 0 ]
+
+experiments:
+  - method:
+      - method_name: msp
+      - method_name: energy
+      - method_name: gradnorm
+      - method_name: knn
+      - method_name: vim
+      - method_name: react
+      - method_name: dice
+      - method_name: kl_matching
+    model:
+      - training_name: news-category_roberta-base_230415115203
+      - training_name: news-category_roberta-base_230415135957
+      - training_name: news-category_roberta-base_230415160556
+      - training_name: news-category_roberta-base_230415181155
+      - training_name: news-category_roberta-base_230415202215

@@ -1,0 +1,11 @@
+seed: 2022
+task_name: transformer
+training_name: yelp_roberta-base_230418081602
+evaluation_name: gradnorm_230427091200
+datasets:
+- sst2
+- imdb
+method_name: gradnorm
+method_config: {}
+trainer:
+  gpu: null

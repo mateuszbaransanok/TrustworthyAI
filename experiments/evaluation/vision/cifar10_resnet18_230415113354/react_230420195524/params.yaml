@@ -1,0 +1,18 @@
+seed: 2022
+task_name: vision
+training_name: cifar10_resnet18_230415113354
+evaluation_name: react_230420195524
+datasets:
+- cifar100/cifar10_ood
+- tin
+- mnist
+- svhn
+- texture
+- places365
+- gaussian
+- uniform
+method_name: react
+method_config: {}
+trainer:
+  gpu:
+  - 0

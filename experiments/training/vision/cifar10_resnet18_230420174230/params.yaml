@@ -1,0 +1,18 @@
+seed: 2025
+task_name: vision
+training_name: cifar10_resnet18_230420174230
+data_name: cifar10
+data_config:
+  dataset_name: cifar10
+  batch_size: 64
+  num_workers: 6
+model_name: resnet18
+model_config:
+  model_name: resnet18
+  optimizer_name: adam
+  learning_rate: 2.0e-05
+  weight_decay: 0.0005
+trainer:
+  max_epochs: 100
+  gpu:
+  - 0

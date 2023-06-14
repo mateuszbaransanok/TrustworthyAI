@@ -1,0 +1,37 @@
+seed: 2022
+task_name: vision
+training_name: ???
+
+datasets:
+  - cifar100/cifar10_ood
+  - tin
+  - mnist
+  - svhn
+  - texture
+  - places365
+  - gaussian
+  - uniform
+
+method_name: ???
+method_config: { }
+
+trainer:
+  gpu: [ 0 ]
+
+experiments:
+  - method:
+      - method_name: msp
+      - method_name: energy
+      - method_name: odin
+      - method_name: gradnorm
+      - method_name: knn
+      - method_name: vim
+      - method_name: react
+      - method_name: dice
+      - method_name: kl_matching
+    model:
+      - training_name: cifar10_resnet18_230415113354
+      - training_name: cifar10_resnet18_230420171013
+      - training_name: cifar10_resnet18_230420172119
+      - training_name: cifar10_resnet18_230420173127
+      - training_name: cifar10_resnet18_230420174230

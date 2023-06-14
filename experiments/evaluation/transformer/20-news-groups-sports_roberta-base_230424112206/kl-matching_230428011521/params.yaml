@@ -1,0 +1,12 @@
+seed: 2022
+task_name: transformer
+training_name: 20-news-groups-sports_roberta-base_230424112206
+evaluation_name: kl-matching_230428011521
+datasets:
+- 20_news_groups/computer
+- 20_news_groups/politics
+method_name: kl_matching
+method_config: {}
+trainer:
+  gpu:
+  - 0

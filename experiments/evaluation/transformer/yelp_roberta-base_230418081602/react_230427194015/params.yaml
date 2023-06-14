@@ -1,0 +1,12 @@
+seed: 2022
+task_name: transformer
+training_name: yelp_roberta-base_230418081602
+evaluation_name: react_230427194015
+datasets:
+- sst2
+- imdb
+method_name: react
+method_config: {}
+trainer:
+  gpu:
+  - 0

@@ -1,0 +1,12 @@
+seed: 2022
+task_name: transformer
+training_name: 20-news-groups-sports_roberta-base_230424061219
+evaluation_name: vim_230428005353
+datasets:
+- 20_news_groups/computer
+- 20_news_groups/politics
+method_name: vim
+method_config: {}
+trainer:
+  gpu:
+  - 0

@@ -1,0 +1,5 @@
+outs:
+- md5: 2c63d03bafe5f7cf8bac08ea87559840.dir
+  size: 9131857
+  nfiles: 11
+  path: wandb

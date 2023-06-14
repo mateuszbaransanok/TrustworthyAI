@@ -1,0 +1,12 @@
+seed: 2022
+task_name: transformer
+training_name: 20-news-groups-sports_roberta-base_230423195224
+evaluation_name: react_230428005832
+datasets:
+- 20_news_groups/computer
+- 20_news_groups/politics
+method_name: react
+method_config: {}
+trainer:
+  gpu:
+  - 0

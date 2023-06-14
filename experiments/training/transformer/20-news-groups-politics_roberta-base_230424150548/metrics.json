@@ -1,0 +1,18 @@
+[
+  {
+    "test/accuracy": 0.9458631277084351,
+    "test/f1": 0.9452729821205139,
+    "test/precision": 0.9455117583274841,
+    "test/recall": 0.9455217123031616,
+    "test/f1/talk.politics.guns": 0.9380862712860107,
+    "test/f1/talk.politics.mideast": 0.9692586064338684,
+    "test/f1/talk.politics.misc": 0.920430064201355,
+    "test/f1/talk.religion.misc": 0.9533169865608215,
+    "test/loss": 0.23696701228618622,
+    "test/support": 979.0,
+    "test/support/talk.politics.guns": 264.0,
+    "test/support/talk.politics.mideast": 275.0,
+    "test/support/talk.politics.misc": 239.0,
+    "test/support/talk.religion.misc": 201.0
+  }
+]

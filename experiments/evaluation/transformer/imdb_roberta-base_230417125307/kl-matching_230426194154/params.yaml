@@ -1,0 +1,11 @@
+seed: 2022
+task_name: transformer
+training_name: imdb_roberta-base_230417125307
+evaluation_name: kl-matching_230426194154
+datasets:
+- sst2
+- yelp_polarity/small
+method_name: kl_matching
+method_config: {}
+trainer:
+  gpu: null

@@ -1,0 +1,4 @@
+outs:
+- md5: f84118da006a02646098d07058b994ed
+  size: 1496048949
+  path: epoch=89-step=11070.ckpt

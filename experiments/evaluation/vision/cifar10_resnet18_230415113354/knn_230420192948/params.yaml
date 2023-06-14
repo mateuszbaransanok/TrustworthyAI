@@ -1,0 +1,18 @@
+seed: 2022
+task_name: vision
+training_name: cifar10_resnet18_230415113354
+evaluation_name: knn_230420192948
+datasets:
+- cifar100/cifar10_ood
+- tin
+- mnist
+- svhn
+- texture
+- places365
+- gaussian
+- uniform
+method_name: knn
+method_config: {}
+trainer:
+  gpu:
+  - 0

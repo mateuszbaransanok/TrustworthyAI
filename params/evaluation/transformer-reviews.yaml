@@ -1,0 +1,52 @@
+seed: 2022
+task_name: transformer
+training_name: ???
+
+datasets: ???
+
+method_name: ???
+method_config: { }
+
+trainer:
+  gpu: [ 0 ]
+
+experiments:
+  - method:
+      - method_name: msp
+      - method_name: energy
+      - method_name: gradnorm
+      - method_name: knn
+      - method_name: vim
+      - method_name: react
+      - method_name: dice
+      - method_name: kl_matching
+    data:
+      - datasets:
+          - imdb
+          - yelp_polarity/small
+    model:
+      - training_name: sst2_roberta-base_230416050604
+      - training_name: sst2_roberta-base_230416150429
+      - training_name: sst2_roberta-base_230417093559
+      - training_name: sst2_roberta-base_230418174341
+      - training_name: sst2_roberta-base_230419123602
+
+  - method:
+      - method_name: msp
+      - method_name: energy
+      - method_name: gradnorm
+      - method_name: knn
+      - method_name: vim
+      - method_name: react
+      - method_name: dice
+      - method_name: kl_matching
+    data:
+      - datasets:
+          - sst2
+          - yelp_polarity/small
+    model:
+      - training_name: imdb_roberta-base_230416074740
+      - training_name: imdb_roberta-base_230416174105
+      - training_name: imdb_roberta-base_230417125307
+      - training_name: imdb_roberta-base_230418203651
+      - training_name: imdb_roberta-base_230419152832

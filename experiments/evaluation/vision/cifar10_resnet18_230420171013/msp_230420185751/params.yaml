@@ -1,0 +1,18 @@
+seed: 2022
+task_name: vision
+training_name: cifar10_resnet18_230420171013
+evaluation_name: msp_230420185751
+datasets:
+- cifar100/cifar10_ood
+- tin
+- mnist
+- svhn
+- texture
+- places365
+- gaussian
+- uniform
+method_name: msp
+method_config: {}
+trainer:
+  gpu:
+  - 0

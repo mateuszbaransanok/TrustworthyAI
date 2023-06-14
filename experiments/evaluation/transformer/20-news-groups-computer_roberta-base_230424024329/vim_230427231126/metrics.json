@@ -1,0 +1,30 @@
+[
+  {
+    "eval/20_news_groups/politics/accuracy": 0.8938356164383562,
+    "eval/20_news_groups/politics/fpr@95": 0.0755873340143003,
+    "eval/20_news_groups/politics/detection_error": 0.06531673130827326,
+    "eval/20_news_groups/politics/auroc": 0.9857857472679699,
+    "eval/20_news_groups/politics/aupr_in": 0.9907149401209598,
+    "eval/20_news_groups/politics/aupr_out": 0.9788035536520477,
+    "eval/20_news_groups/politics/ind_support": 1460.0,
+    "eval/20_news_groups/politics/ood_support": 979.0,
+    "eval/20_news_groups/politics/ccr_1": 0.8801369863013698,
+    "eval/20_news_groups/politics/ccr_2": 0.7787671232876713,
+    "eval/20_news_groups/politics/ccr_3": 0.44452054794520546,
+    "eval/20_news_groups/politics/ccr_4": 0.44452054794520546
+  },
+  {
+    "eval/20_news_groups/sports/accuracy": 0.8938356164383562,
+    "eval/20_news_groups/sports/fpr@95": 0.2131979695431472,
+    "eval/20_news_groups/sports/detection_error": 0.1401851005045401,
+    "eval/20_news_groups/sports/auroc": 0.9681628537653848,
+    "eval/20_news_groups/sports/aupr_in": 0.9769054643286765,
+    "eval/20_news_groups/sports/aupr_out": 0.9579529043703383,
+    "eval/20_news_groups/sports/ind_support": 1460.0,
+    "eval/20_news_groups/sports/ood_support": 1182.0,
+    "eval/20_news_groups/sports/ccr_1": 0.8479452054794521,
+    "eval/20_news_groups/sports/ccr_2": 0.7136986301369863,
+    "eval/20_news_groups/sports/ccr_3": 0.6390410958904109,
+    "eval/20_news_groups/sports/ccr_4": 0.24794520547945206
+  }
+]

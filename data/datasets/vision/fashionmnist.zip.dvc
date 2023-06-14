@@ -1,0 +1,4 @@
+outs:
+- md5: 90b95f05367674e816d42b158f2eafd6
+  size: 56374313
+  path: fashionmnist.zip

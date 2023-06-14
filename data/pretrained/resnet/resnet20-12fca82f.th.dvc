@@ -1,0 +1,4 @@
+outs:
+- md5: 1f38c81cdebd6bcce9b03d082161a36c
+  size: 1099231
+  path: resnet20-12fca82f.th

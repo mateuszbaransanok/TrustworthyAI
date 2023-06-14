@@ -1,0 +1,18 @@
+seed: 2022
+task_name: transformer
+training_name: news-category_roberta-base_230415181155
+evaluation_name: kl-matching_230421075010
+datasets:
+- news_category/ood
+- twitter_topic
+- sst2
+- imdb
+- yelp_polarity/small
+- language
+- news_category_random/ind
+- news_category_random/ood
+method_name: kl_matching
+method_config: {}
+trainer:
+  gpu:
+  - 0

@@ -1,0 +1,11 @@
+seed: 2022
+task_name: transformer
+training_name: yelp_roberta-base_230420072829
+evaluation_name: msp_230427025251
+datasets:
+- sst2
+- imdb
+method_name: msp
+method_config: {}
+trainer:
+  gpu: null

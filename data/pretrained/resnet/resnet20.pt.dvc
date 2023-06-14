@@ -1,0 +1,4 @@
+outs:
+- md5: 46cefdadc61c2efd090bce5287160dc7
+  size: 1114021
+  path: resnet20.pt

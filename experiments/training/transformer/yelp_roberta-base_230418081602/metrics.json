@@ -1,0 +1,14 @@
+[
+  {
+    "test/accuracy": 0.9693999886512756,
+    "test/f1": 0.969395637512207,
+    "test/precision": 0.9694312810897827,
+    "test/recall": 0.9693731665611267,
+    "test/f1/negative": 0.9690314531326294,
+    "test/f1/positive": 0.9697598814964294,
+    "test/loss": 0.08688973635435104,
+    "test/support": 20000.0,
+    "test/support/negative": 9907.0,
+    "test/support/positive": 10093.0
+  }
+]

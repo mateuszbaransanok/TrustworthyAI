@@ -1,0 +1,30 @@
+[
+  {
+    "eval/imdb/accuracy": 0.94015,
+    "eval/imdb/fpr@95": 0.8073,
+    "eval/imdb/detection_error": 0.42865000000000003,
+    "eval/imdb/auroc": 0.80884866125,
+    "eval/imdb/aupr_in": 0.8323832136999834,
+    "eval/imdb/aupr_out": 0.7468456539828263,
+    "eval/imdb/ind_support": 20000.0,
+    "eval/imdb/ood_support": 20000.0,
+    "eval/imdb/ccr_1": 0.56475,
+    "eval/imdb/ccr_2": 0.2369,
+    "eval/imdb/ccr_3": 0.0915,
+    "eval/imdb/ccr_4": 0.03575
+  },
+  {
+    "eval/yelp_polarity/small/accuracy": 0.94015,
+    "eval/yelp_polarity/small/fpr@95": 0.86945,
+    "eval/yelp_polarity/small/detection_error": 0.459725,
+    "eval/yelp_polarity/small/auroc": 0.7332967199999999,
+    "eval/yelp_polarity/small/aupr_in": 0.7432573628521396,
+    "eval/yelp_polarity/small/aupr_out": 0.6832615752071782,
+    "eval/yelp_polarity/small/ind_support": 20000.0,
+    "eval/yelp_polarity/small/ood_support": 20000.0,
+    "eval/yelp_polarity/small/ccr_1": 0.3454,
+    "eval/yelp_polarity/small/ccr_2": 0.12555,
+    "eval/yelp_polarity/small/ccr_3": 0.05205,
+    "eval/yelp_polarity/small/ccr_4": 0.0284
+  }
+]

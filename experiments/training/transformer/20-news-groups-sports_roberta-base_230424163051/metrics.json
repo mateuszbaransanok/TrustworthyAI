@@ -1,0 +1,18 @@
+[
+  {
+    "test/accuracy": 0.9737732410430908,
+    "test/f1": 0.9737832546234131,
+    "test/precision": 0.9738501906394958,
+    "test/recall": 0.9738006591796875,
+    "test/f1/rec.autos": 0.9732441306114197,
+    "test/f1/rec.motorcycles": 0.9700996279716492,
+    "test/f1/rec.sport.baseball": 0.9736379981040955,
+    "test/f1/rec.sport.hockey": 0.978151261806488,
+    "test/loss": 0.09678835421800613,
+    "test/support": 1182.0,
+    "test/support/rec.autos": 302.0,
+    "test/support/rec.motorcycles": 299.0,
+    "test/support/rec.sport.baseball": 285.0,
+    "test/support/rec.sport.hockey": 296.0
+  }
+]

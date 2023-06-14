@@ -1,0 +1,4 @@
+outs:
+- md5: b9ce414490418281ff0d64314ce0fb9f
+  size: 44774597
+  path: resnet18_cifar10_20230212.ckpt

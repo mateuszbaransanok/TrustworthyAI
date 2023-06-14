@@ -1,0 +1,12 @@
+seed: 2022
+task_name: transformer
+training_name: yelp_roberta-base_230417001615
+evaluation_name: dice_230427201950
+datasets:
+- sst2
+- imdb
+method_name: dice
+method_config: {}
+trainer:
+  gpu:
+  - 0

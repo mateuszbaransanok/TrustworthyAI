@@ -1,0 +1,4 @@
+outs:
+- md5: 9b60539a74333552b6d61c88f84e4224
+  size: 1496030771
+  path: last.ckpt

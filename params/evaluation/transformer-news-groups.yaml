@@ -1,0 +1,72 @@
+seed: 2022
+task_name: transformer
+training_name: ???
+
+datasets: ???
+
+method_name: ???
+method_config: { }
+
+trainer:
+  gpu: [ 0 ]
+
+experiments:
+  - method:
+      - method_name: msp
+      - method_name: energy
+      - method_name: gradnorm
+      - method_name: knn
+      - method_name: vim
+      - method_name: react
+      - method_name: dice
+      - method_name: kl_matching
+    data:
+      - datasets:
+          - 20_news_groups/politics
+          - 20_news_groups/sports
+    models:
+      - training_name: 20-news-groups-computer_roberta-base_230423162532
+      - training_name: 20-news-groups-computer_roberta-base_230423213333
+      - training_name: 20-news-groups-computer_roberta-base_230424024329
+      - training_name: 20-news-groups-computer_roberta-base_230424075254
+      - training_name: 20-news-groups-computer_roberta-base_230424130208
+
+  - method:
+      - method_name: msp
+      - method_name: energy
+      - method_name: gradnorm
+      - method_name: knn
+      - method_name: vim
+      - method_name: react
+      - method_name: dice
+      - method_name: kl_matching
+    data:
+      - datasets:
+          - 20_news_groups/computer
+          - 20_news_groups/sports
+    models:
+      - training_name: 20-news-groups-politics_roberta-base_230423182633
+      - training_name: 20-news-groups-politics_roberta-base_230423233656
+      - training_name: 20-news-groups-politics_roberta-base_230424044643
+      - training_name: 20-news-groups-politics_roberta-base_230424095636
+      - training_name: 20-news-groups-politics_roberta-base_230424150548
+
+  - method:
+      - method_name: msp
+      - method_name: energy
+      - method_name: gradnorm
+      - method_name: knn
+      - method_name: vim
+      - method_name: react
+      - method_name: dice
+      - method_name: kl_matching
+    data:
+      - datasets:
+          - 20_news_groups/computer
+          - 20_news_groups/politics
+    models:
+      - training_name: 20-news-groups-sports_roberta-base_230423195224
+      - training_name: 20-news-groups-sports_roberta-base_230424010222
+      - training_name: 20-news-groups-sports_roberta-base_230424061219
+      - training_name: 20-news-groups-sports_roberta-base_230424112206
+      - training_name: 20-news-groups-sports_roberta-base_230424163051

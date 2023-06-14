@@ -1,0 +1,24 @@
+[
+  {
+    "test/accuracy": 0.8246573209762573,
+    "test/f1": 0.8185930848121643,
+    "test/precision": 0.8187340497970581,
+    "test/recall": 0.8189936876296997,
+    "test/f1/entertainment": 0.8455516695976257,
+    "test/f1/healthy_living": 0.8289403319358826,
+    "test/f1/news": 0.7183393239974976,
+    "test/f1/parents": 0.781741201877594,
+    "test/f1/politics": 0.8713079690933228,
+    "test/f1/style": 0.8426603078842163,
+    "test/f1/travel": 0.8416104912757874,
+    "test/loss": 0.5242137312889099,
+    "test/support": 39688.0,
+    "test/support/entertainment": 8055.0,
+    "test/support/healthy_living": 6429.0,
+    "test/support/news": 6222.0,
+    "test/support/parents": 3266.0,
+    "test/support/politics": 10332.0,
+    "test/support/style": 2910.0,
+    "test/support/travel": 2474.0
+  }
+]

@@ -1,0 +1,12 @@
+seed: 2022
+task_name: transformer
+training_name: yelp_roberta-base_230420072829
+evaluation_name: vim_230427191111
+datasets:
+- sst2
+- imdb
+method_name: vim
+method_config: {}
+trainer:
+  gpu:
+  - 0

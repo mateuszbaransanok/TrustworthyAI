@@ -1,0 +1,12 @@
+seed: 2022
+task_name: transformer
+training_name: 20-news-groups-sports_roberta-base_230424112206
+evaluation_name: dice_230428010852
+datasets:
+- 20_news_groups/computer
+- 20_news_groups/politics
+method_name: dice
+method_config: {}
+trainer:
+  gpu:
+  - 0

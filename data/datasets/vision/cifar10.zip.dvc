@@ -1,0 +1,4 @@
+outs:
+- md5: f6278a622dc61937e4214310966d169b
+  size: 147706065
+  path: cifar10.zip

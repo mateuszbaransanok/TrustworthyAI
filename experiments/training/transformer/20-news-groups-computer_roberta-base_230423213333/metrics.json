@@ -1,0 +1,20 @@
+[
+  {
+    "test/accuracy": 0.8904109597206116,
+    "test/f1": 0.8905295133590698,
+    "test/precision": 0.8901474475860596,
+    "test/recall": 0.8911126255989075,
+    "test/f1/comp.graphics": 0.8655617237091064,
+    "test/f1/comp.os.ms-windows.misc": 0.8662207126617432,
+    "test/f1/comp.sys.ibm.pc.hardware": 0.8673139214515686,
+    "test/f1/comp.sys.mac.hardware": 0.9222798347473145,
+    "test/f1/comp.windows.x": 0.931271493434906,
+    "test/loss": 0.46818485856056213,
+    "test/support": 1460.0,
+    "test/support/comp.graphics": 271.0,
+    "test/support/comp.os.ms-windows.misc": 302.0,
+    "test/support/comp.sys.ibm.pc.hardware": 313.0,
+    "test/support/comp.sys.mac.hardware": 285.0,
+    "test/support/comp.windows.x": 289.0
+  }
+]

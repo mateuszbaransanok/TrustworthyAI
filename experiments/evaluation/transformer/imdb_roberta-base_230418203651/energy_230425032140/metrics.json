@@ -1,0 +1,30 @@
+[
+  {
+    "eval/sst2/accuracy": 0.94475,
+    "eval/sst2/fpr@95": 0.8422,
+    "eval/sst2/detection_error": 0.4461,
+    "eval/sst2/auroc": 0.8186108575,
+    "eval/sst2/aupr_in": 0.8279983032013423,
+    "eval/sst2/aupr_out": 0.7390816952222659,
+    "eval/sst2/ind_support": 20000.0,
+    "eval/sst2/ood_support": 20000.0,
+    "eval/sst2/ccr_1": 0.5647,
+    "eval/sst2/ccr_2": 0.1609,
+    "eval/sst2/ccr_3": 0.0173,
+    "eval/sst2/ccr_4": 0.00645
+  },
+  {
+    "eval/yelp_polarity/small/accuracy": 0.94475,
+    "eval/yelp_polarity/small/fpr@95": 0.96515,
+    "eval/yelp_polarity/small/detection_error": 0.5,
+    "eval/yelp_polarity/small/auroc": 0.7460420562500001,
+    "eval/yelp_polarity/small/aupr_in": 0.8105201870552318,
+    "eval/yelp_polarity/small/aupr_out": 0.6369811979494959,
+    "eval/yelp_polarity/small/ind_support": 20000.0,
+    "eval/yelp_polarity/small/ood_support": 20000.0,
+    "eval/yelp_polarity/small/ccr_1": 0.5436,
+    "eval/yelp_polarity/small/ccr_2": 0.34625,
+    "eval/yelp_polarity/small/ccr_3": 0.1585,
+    "eval/yelp_polarity/small/ccr_4": 0.01795
+  }
+]

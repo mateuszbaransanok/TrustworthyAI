@@ -1,0 +1,21 @@
+seed: 2023
+task_name: transformer
+training_name: yelp_roberta-base_230418081602
+data_name: yelp
+data_config:
+  tokenizer_name: roberta-base
+  batch_size: 16
+  num_workers: 6
+  max_length: 384
+  dataset_name: yelp_polarity/small
+model_name: roberta-base
+model_config:
+  model_name: roberta-base
+  optimizer_name: adam
+  learning_rate: 2.0e-05
+  weight_decay: 0.01
+  num_warmup_steps: 1000
+trainer:
+  max_epochs: 100
+  gpu:
+  - 0

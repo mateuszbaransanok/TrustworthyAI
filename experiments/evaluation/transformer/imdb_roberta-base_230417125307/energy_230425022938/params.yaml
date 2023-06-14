@@ -1,0 +1,11 @@
+seed: 2022
+task_name: transformer
+training_name: imdb_roberta-base_230417125307
+evaluation_name: energy_230425022938
+datasets:
+- sst2
+- yelp_polarity/small
+method_name: energy
+method_config: {}
+trainer:
+  gpu: null

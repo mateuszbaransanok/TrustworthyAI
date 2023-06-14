@@ -1,0 +1,4 @@
+outs:
+- md5: 9ed87aa5acfbd816c9ce1da443e98b93
+  size: 21071441
+  path: svhn.zip

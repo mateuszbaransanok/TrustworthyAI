@@ -1,0 +1,54 @@
+seed: ???
+task_name: transformer
+
+data_config:
+  tokenizer_name: &transformer_name ???
+  batch_size: 16
+  num_workers: 6
+  max_length: 384
+
+model_name: *transformer_name
+model_config:
+  model_name: *transformer_name
+  optimizer_name: adam
+  learning_rate: 2.0e-5
+  weight_decay: 1.0e-2
+  num_warmup_steps: 1000
+
+trainer:
+  max_epochs: 100
+  gpu: [ 0 ]
+
+experiments:
+  - seeds:
+      - seed: 2021
+      - seed: 2022
+      - seed: 2023
+      - seed: 2024
+      - seed: 2025
+    models:
+      - data_config:
+          tokenizer_name: roberta-base
+        model_name: roberta-base
+        model_config:
+          model_name: roberta-base
+#      - data_config:
+#          tokenizer_name: bert-base-cased
+#        model_name: bert-base-cased
+#        model_config:
+#          model_name: bert-base-cased
+#      - data_config:
+#          tokenizer_name: distilbert-base-cased
+#        model_name: distilbert-base-cased
+#        model_config:
+#          model_name: distilbert-base-cased
+    datasets:
+      - data_name: 20-news-groups-computer
+        data_config:
+          dataset_name: 20_news_groups/computer
+      - data_name: 20-news-groups-politics
+        data_config:
+          dataset_name: 20_news_groups/politics
+      - data_name: 20-news-groups-sports
+        data_config:
+          dataset_name: 20_news_groups/sports
